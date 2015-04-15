@@ -25,11 +25,13 @@ a, a:hover{
 }
 
 
+
+/*Dropdown Stage Two */
+
+
 .mainmenu ul li:hover ul{
     left: 0px;
 }
-
-
 
 .mainmenu ul li ul{
     position: absolute;
@@ -37,6 +39,7 @@ a, a:hover{
 }
 .mainmenu ul li ul li{
     width: 250px;
+    position: relative;
 }
 .mainmenu ul li ul li a{
     display: block;
@@ -52,6 +55,36 @@ a, a:hover{
 .mainmenu ul li:hover{
     background: #ff4444;;
 }
+
+
+/*Dropdown stage three*/
+
+.mainmenu ul li ul li ul li{ 
+    display: none;
+}
+
+.mainmenu ul li ul li:hover ul li{      
+    display: block;
+}
+.mainmenu ul li ul li ul li{   
+    margin-left: 250px;
+    width: 400px;
+    top:-36px;
+}
+.mainmenu ul li ul li ul li a{    
+
+   
+}
+.mainmenu ul li ul li ul li a:hover{
+
+
+}
+
+
+.mainmenu ul li ul li ul:hover li{ 
+    background: yellow;
+}
+
 
 
 
