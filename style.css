@@ -40,6 +40,7 @@ a, a:hover{
 .mainmenu ul li ul li{
     width: 250px;
     position: relative;
+    border-bottom: 1px solid #f9f9f9;
 }
 .mainmenu ul li ul li a{
     display: block;
@@ -67,7 +68,7 @@ a, a:hover{
     display: block;
 }
 .mainmenu ul li ul li ul li{   
-    margin-left: 250px;
+    margin-left: 251px;
     width: 400px;
     top:-36px;
 }
