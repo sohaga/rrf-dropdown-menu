@@ -5,44 +5,54 @@ a, a:hover{
 /*Main Menu CSS*/
 
 .mainmenu{
-    background: #ff4444;
+    background: #ff6666;
     min-height: 46px;
 }
+.mainmenu ul{}
+
 .mainmenu ul li{
     float: left;
     position: relative;
 }
 .mainmenu ul li a{
     display: block;
-    padding: 15px ;
-    color: #f9f9f9;
-    
-}
-.mainmenu ul li a:hover{
-    background: black;
+    padding: 15px;
     color:white;
 }
+.mainmenu ul li a:hover{
+    background: #ff4444;
+    color:#f9f9f9;
+}
 
-.mainmenu ul li ul {
+
+.mainmenu ul li:hover ul{
+    left: 0px;
+}
+
+
+
+.mainmenu ul li ul{
     position: absolute;
     left: -99999px;
-    background: #ff4444;
 }
-.mainmenu ul li:hover ul {
-    display: block;
-    left: 0;   
+.mainmenu ul li ul li{
+    width: 250px;
 }
-.mainmenu ul li ul li {
-    width: 250px;   
-    border-bottom: 1px solid #f78787;   
-    float: none;
-}
-.mainmenu ul li ul li a {
+.mainmenu ul li ul li a{
     display: block;
     padding: 10px 15px;
+    background: #ff6666;
 }
-.mainmenu ul li ul li a:hover {
-    background:black;
+.mainmenu ul li ul li a:hover{
+    background: #ff4444;
+    color:#f9f9f9;
 }
+
+
+.mainmenu ul li:hover{
+    background: #ff4444;;
+}
+
+
 
 /*End Main Menu*/
