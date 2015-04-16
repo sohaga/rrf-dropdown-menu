@@ -4,89 +4,49 @@ a, a:hover{
 
 /*Main Menu CSS*/
 
-.mainmenu{
-    background: #ff6666;
-    min-height: 46px;
-}
-.mainmenu ul{}
-
 .mainmenu ul li{
     float: left;
+    padding-right: 1px;
     position: relative;
 }
-.mainmenu ul li a{
-    display: block;
-    padding: 15px;
-    color:white;
-}
-.mainmenu ul li a:hover{
-    background: #ff4444;
-    color:#f9f9f9;
-}
 
-
-
-/*Dropdown Stage Two */
-
-
-.mainmenu ul li:hover ul{
-    left: 0px;
+.mainmenu ul a{
+    display: table-cell; 
+    vertical-align: middle;
+    width: 200px;
+    height: 50px; 
+    text-align: center;
+    background: #69c;
+    color: #fff;    
 }
 
-.mainmenu ul li ul{
-    position: absolute;
-    left: -99999px;
-}
-.mainmenu ul li ul li{
-    width: 250px;
-    position: relative;
-    border-bottom: 1px solid #f9f9f9;
-}
-.mainmenu ul li ul li a{
-    display: block;
-    padding: 10px 15px;
-    background: #ff6666;
-}
-.mainmenu ul li ul li a:hover{
-    background: #ff4444;
-    color:#f9f9f9;
+.mainmenu ul a:hover, .mainmenu li:hover > a{
+    background: #09c;    
 }
 
-
-.mainmenu ul li:hover{
-    background: #ff4444;;
-}
-
-
-/*Dropdown stage three*/
-
-.mainmenu ul li ul li ul li{ 
+.mainmenu li>ul{
     display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
 }
 
-.mainmenu ul li ul li:hover ul li{      
+.mainmenu li:hover>ul{
     display: block;
 }
-.mainmenu ul li ul li ul li{   
-    margin-left: 251px;
-    width: 400px;
-    top:-36px;
-}
-.mainmenu ul li ul li ul li a{    
 
-   
-}
-.mainmenu ul li ul li ul li a:hover{
-
-
+.mainmenu li>ul li{
+    padding: 0; padding-top: 1px;
 }
 
-
-.mainmenu ul li ul li ul:hover li{ 
-    background: yellow;
+.mainmenu li>ul li>ul{
+    left: 100%;
+    top: 0;
+    padding-left: 1px;
 }
 
-
-
+.mainmenu li>ul li>ul li{
+    width: 200px;
+ }
 
 /*End Main Menu*/
