@@ -5,30 +5,28 @@ a, a:hover{
 /*Main Menu CSS*/
 
 .mainmenu ul li{
-    float: left;
-    padding-right: 1px;
     position: relative;
+    float: left;    
 }
 
-.mainmenu ul a{
-    display: table-cell; 
-    vertical-align: middle;
+.mainmenu li a{
     width: 200px;
-    height: 50px; 
+    height: 50px;
+    background: gray;
+    color: white;
+    vertical-align: middle;
+    display: table-cell;
     text-align: center;
-    background: #69c;
-    color: #fff;    
 }
 
-.mainmenu ul a:hover, .mainmenu li:hover > a{
-    background: #09c;    
+.mainmenu ul li:hover> a{
+    background: #ff4444;
+    color: #f9f9f9;
 }
 
 .mainmenu li>ul{
-    display: none;
     position: absolute;
-    left: 0;
-    top: 100%;
+    display: none;
 }
 
 .mainmenu li:hover>ul{
@@ -36,17 +34,15 @@ a, a:hover{
 }
 
 .mainmenu li>ul li{
-    padding: 0; padding-top: 1px;
+    padding-top: 1px;
+    width: 200px;
 }
 
 .mainmenu li>ul li>ul{
     left: 100%;
-    top: 0;
+    top:0;
     padding-left: 1px;
 }
 
-.mainmenu li>ul li>ul li{
-    width: 200px;
- }
 
 /*End Main Menu*/
