@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $('.mainmenu > ul').slicknav();
 	/*
     var n = "#nav", no = "nav-open";
     $("#nav-menu").click(function(){
