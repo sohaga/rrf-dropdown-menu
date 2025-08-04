@@ -46,3 +46,28 @@ a, a:hover{
 
 
 /*End Main Menu*/
+
+/* Responsive Menu */
+.slicknav_menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mainmenu ul {
+        display: none !important;
+    }
+
+    .slicknav_menu {
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
+    .mainmenu ul {
+        display: block !important;
+    }
+
+    .slicknav_menu {
+        display: none;
+    }
+}
